@@ -11,6 +11,7 @@ import chartData from './Chart';
 import AirItems from './AirItem';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
+
 const AirDetail = () => {
   const {
     details, country, capital, isLoading,

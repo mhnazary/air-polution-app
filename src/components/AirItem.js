@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// AirItem component added to display the air quality data
 const AirItem = ({ detailItem }) => (
-  <li className="pollution-data flex justify-between px-4 shadow-lg shadow-gray-600">
-    <p className="text-base font-normal">{detailItem.name}</p>
-    <div>
-      <p className="text-base font-normal">
+  <li className="pollution-data flex">
+    <p>{detailItem.name}</p>
+    <div className="pollution-value">
+      <p>
         {detailItem.value}
         μg/m3
       </p>
@@ -19,4 +20,5 @@ AirItem.propTypes = {
     value: PropTypes.string.isRequired,
   }).isRequired,
 };
+
 export default AirItem;
