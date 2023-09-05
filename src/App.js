@@ -1,5 +1,5 @@
-import './App.css';
 import Country from './components/Country';
+import './index.css';
 
 function App() {
   return (
@@ -8,5 +8,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

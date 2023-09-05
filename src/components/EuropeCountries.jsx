@@ -1,5 +1,12 @@
 const EuropeCountries = [
   {
+    country: 'Switzerland',
+    capital: 'Bern',
+    latitude: 46.9479,
+    longitude: 7.4474,
+    image: 'https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/ch/vector.svg',
+  },
+  {
     country: 'Albania',
     capital: 'Tirana',
     latitude: 41.3275,
@@ -12,13 +19,6 @@ const EuropeCountries = [
     latitude: 42.5063,
     longitude: 1.5218,
     image: 'https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/ad/vector.svg',
-  },
-  {
-    country: 'Austria',
-    capital: 'Vienna',
-    latitude: 48.2082,
-    longitude: 16.3738,
-    image: 'https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/at/vector.svg',
   },
   {
     country: 'Belarus',
@@ -140,13 +140,6 @@ const EuropeCountries = [
     image: 'https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/it/vector.svg',
   },
   {
-    country: 'Kosovo',
-    capital: 'Pristina',
-    latitude: 42.6629,
-    longitude: 21.1655,
-    image: 'https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/xk/vector.svg',
-  },
-  {
     country: 'Latvia',
     capital: 'Riga',
     latitude: 56.9496,
@@ -222,13 +215,6 @@ const EuropeCountries = [
     latitude: 59.3293,
     longitude: 18.0686,
     image: 'https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/se/vector.svg',
-  },
-  {
-    country: 'Switzerland',
-    capital: 'Bern',
-    latitude: 46.9479,
-    longitude: 7.4474,
-    image: 'https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/ch/vector.svg',
   },
   {
     country: 'Ukraine',

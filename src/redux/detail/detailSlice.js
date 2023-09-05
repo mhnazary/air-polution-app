@@ -9,6 +9,7 @@ const initialState = {
   isLoading: true,
   searchFilter: false,
 };
+
 export const fetchDetails = createAsyncThunk('details/fetchDetails', async ({ lat, lon }) => {
   try {
     const response = await axios(
@@ -16,7 +17,6 @@ export const fetchDetails = createAsyncThunk('details/fetchDetails', async ({ la
     );
 
     const { components } = response.data.list[0];
-
     const componentNames = {
       co: 'Carbon monoxide',
       no: 'Nitrogen monoxide',
@@ -27,6 +27,7 @@ export const fetchDetails = createAsyncThunk('details/fetchDetails', async ({ la
       pm10: 'Coarse particulate matter (PM10)',
       nh3: 'Ammonia',
     };
+
     const componentArray = Object.entries(components).map(([key, value]) => ({
       name: componentNames[key],
       value,
@@ -35,12 +36,12 @@ export const fetchDetails = createAsyncThunk('details/fetchDetails', async ({ la
     const { country, capital } = EuropeCountries.find(
       (data) => data.latitude.toString() === lat && data.longitude.toString() === lon,
     );
-
     return [country, capital, componentArray];
   } catch (error) {
     return error.message;
   }
 });
+
 export const detailSlice = createSlice({
   name: 'details',
   initialState,
@@ -78,5 +79,7 @@ export const detailSlice = createSlice({
       });
   },
 });
+
 export const { filterCapital, filterCountry } = detailSlice.actions;
+
 export default detailSlice.reducer;

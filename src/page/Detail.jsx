@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import AirDetail from '../components/Airdetail';
+import '../index.css';
 
 const Detail = () => {
   const { country, capital } = useSelector((state) => state.detail);
