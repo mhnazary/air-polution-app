@@ -263,13 +263,6 @@ const EuropeCountries = [
     latitude: 38.7223,
     longitude: -9.1393,
   },
-  {
-    country: 'Romania',
-    capital: 'Bucharest',
-    latitude: 44.4396,
-    longitude: 26.0963,
-  },
-
 ];
 
 export default EuropeCountries;
