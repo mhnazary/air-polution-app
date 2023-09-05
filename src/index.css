@@ -89,6 +89,12 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.country-shape {
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+}
+
 .country-list {
   max-width: 100%;
   padding: 3rem 0;
