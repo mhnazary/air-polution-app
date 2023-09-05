@@ -13,6 +13,7 @@ const store = mockStore({
   },
 });
 
+// Create a mock Redux store
 test('renders CountriesList component correctly', () => {
   const component = renderer.create(
     <Provider store={store}>

@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { fetchDetails, detailSlice } from '../redux/detail/detailSlice';
 
+// Create a mock Redux store
 describe('detailsSlice', () => {
   let store;
 
