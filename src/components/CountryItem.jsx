@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../index.css';
 import { NavLink } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
-import '../index.css';
 
+// 
 const CountryItem = ({ data }) => (
   <>
     <li className="country-list">

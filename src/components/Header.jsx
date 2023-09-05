@@ -12,7 +12,7 @@ const Header = () => (
         <BsChevronLeft className="backBttn" />
         <NavLink to="/" className="text-xl font-bold">Back</NavLink>
       </div>
-      <NavLink to="/" className="text-3xl font-bold">Most Recent data</NavLink>
+      <NavLink to="/" className="text-3xl font-bold">Europe</NavLink>
       <div className="w-40 flex justify-evenly text-xl">
         <BiSolidMicrophone className="text-3xl" />
         <FaRegSun className="text-3xl" />
