@@ -4,7 +4,7 @@ import '../index.css';
 import { NavLink } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
 
-// 
+//
 const CountryItem = ({ data }) => (
   <>
     <li className="country-list">

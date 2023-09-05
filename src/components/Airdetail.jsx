@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Doughnut } from 'react-chartjs-2';
+import '../index.css';
 import {
   Chart as ChartJS, ArcElement, Tooltip, Legend,
 } from 'chart.js';
@@ -45,14 +46,14 @@ const AirDetail = () => {
         <Doughnut data={chartData(infoArr)} />
       </div>
       <header>
-        <div>
+        <div className="bg-blue text-lg font-bold">
           <h2>
             {`${country}/ `}
-            <span>{`${capital} air pollution statistics`}</span>
+            <span className="text-sm font-bold">{`${capital} air pollution statistics`}</span>
           </h2>
         </div>
       </header>
-      <ul>
+      <ul className="text-lg">
         {details && details.length > 0 ? (
           details.map((detailItem) => (
             <AirItems key={detailItem.name} detailItem={detailItem} />
