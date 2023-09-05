@@ -1,5 +1,10 @@
-function Detail() {
-  return <h1>Details ...</h1>;
-}
+import React from 'react';
+import AirDetails from '../components/Airdetail';
+
+const Detail = () => (
+  <div>
+    <AirDetails />
+  </div>
+);
 
 export default Detail;
