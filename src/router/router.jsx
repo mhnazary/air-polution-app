@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import React from 'react';
+import Details from '../page/Detail';
 import App from '../App';
 import Navigation from '../page/Navagate';
 
@@ -9,6 +10,14 @@ const router = createBrowserRouter([
     element: (
       <Navigation>
         <App />
+      </Navigation>
+    ),
+  },
+  {
+    path: '/Details',
+    element: (
+      <Navigation>
+        <Details />
       </Navigation>
     ),
   },
