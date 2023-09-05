@@ -11,6 +11,7 @@ import chartData from './Chart';
 import AirItems from './AirItem';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
+
 const AirDetail = () => {
   const {
     details, country, capital, isLoading,
@@ -42,7 +43,7 @@ const AirDetail = () => {
   return (
     <div>
       <div className="chart-box">
-        <h2>Doughnut Chart</h2>
+        <h2 className="text-2xl">Doughnut Chart</h2>
         <Doughnut data={chartData(infoArr)} />
       </div>
       <header>
