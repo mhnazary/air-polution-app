@@ -13,7 +13,7 @@ test('renders NavBar component without errors', () => {
 
   const BackLink = screen.getByText(/Back/i);
   const NameLink = screen.getByText(/Europe/i);
-  
+
   expect(BackLink).toBeInTheDocument();
   expect(NameLink).toBeInTheDocument();
 });

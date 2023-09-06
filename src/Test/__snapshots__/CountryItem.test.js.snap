@@ -46,18 +46,22 @@ exports[`renders component with correct data 1`] = `
   </div>
   <div>
     <img
-      alt="undefined"
+      alt="Switzerland"
       className="country-shape"
-      src="undefined"
+      src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/ch/vector.svg"
     />
   </div>
   <div>
     <h3
       className="text-2xl font-bold pl-8"
-    />
+    >
+      Switzerland
+    </h3>
     <p
       className="text-lg font-bold pl-8"
-    />
+    >
+      Bern
+    </p>
   </div>
 </li>
 `;
