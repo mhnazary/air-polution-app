@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { CgSearch } from 'react-icons/cg';
 import '../index.css';
 import EuropeCountries from './EuropeCountries';
-import CountriesItem from './CountryItem';
+import CountryItem from './CountryItem';
 
 const CountryList = () => {
   const [search, setSearch] = useState('');
@@ -31,7 +31,7 @@ const CountryList = () => {
               .filter((item) => (search.toLocaleLowerCase() === ''
                 ? item
                 : item.country.toLocaleLowerCase().includes(search)))
-              .map((data) => <CountriesItem key={data.country} data={data} className="country-list" />)}
+              .map((data) => <CountryItem key={data.country} data={data} className="country-list" />)}
       </ul>
     </div>
   );

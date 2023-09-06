@@ -10,16 +10,16 @@ exports[`renders component with correct data 1`] = `
     <span
       className="text-base font-normal"
     >
-      Lat: 20
+      Lat: 46.9479
     </span>
     <span
       className="text-base font-normal"
     >
-      Lon: 10
+      Lon: 7.4474
     </span>
     <a
       className="country-data"
-      href="/stats?lat=20&lon=10"
+      href="/stats?lat=46.9479&lon=7.4474"
       onClick={[Function]}
     >
       <svg

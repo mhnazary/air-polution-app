@@ -124,69 +124,6 @@ exports[`renders CountriesList component correctly 1`] = `
         <span
           className="text-base font-normal"
         >
-          Lat: 41.3275
-        </span>
-        <span
-          className="text-base font-normal"
-        >
-          Lon: 19.8187
-        </span>
-        <a
-          className="country-data"
-          href="/stats?lat=41.3275&lon=19.8187"
-          onClick={[Function]}
-        >
-          <svg
-            className=" text-2xl"
-            fill="currentColor"
-            height="1em"
-            stroke="currentColor"
-            strokeWidth="0"
-            style={
-              Object {
-                "color": undefined,
-              }
-            }
-            viewBox="0 0 16 16"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </a>
-      </div>
-      <div>
-        <img
-          alt="Albania"
-          className="country-shape"
-          src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/al/vector.svg"
-        />
-      </div>
-      <div>
-        <h3
-          className="text-2xl font-bold pl-8"
-        >
-          Albania
-        </h3>
-        <p
-          className="text-lg font-bold pl-8"
-        >
-          Tirana
-        </p>
-      </div>
-    </li>
-    <li
-      className="country-list"
-    >
-      <div
-        className="flex justify-between px-8 items-center"
-      >
-        <span
-          className="text-base font-normal"
-        >
           Lat: 42.5063
         </span>
         <span
@@ -238,6 +175,69 @@ exports[`renders CountriesList component correctly 1`] = `
           className="text-lg font-bold pl-8"
         >
           Andorra la Vella
+        </p>
+      </div>
+    </li>
+    <li
+      className="country-list"
+    >
+      <div
+        className="flex justify-between px-8 items-center"
+      >
+        <span
+          className="text-base font-normal"
+        >
+          Lat: 41.3275
+        </span>
+        <span
+          className="text-base font-normal"
+        >
+          Lon: 19.8187
+        </span>
+        <a
+          className="country-data"
+          href="/stats?lat=41.3275&lon=19.8187"
+          onClick={[Function]}
+        >
+          <svg
+            className=" text-2xl"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <img
+          alt="Albania"
+          className="country-shape"
+          src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/al/vector.svg"
+        />
+      </div>
+      <div>
+        <h3
+          className="text-2xl font-bold pl-8"
+        >
+          Albania
+        </h3>
+        <p
+          className="text-lg font-bold pl-8"
+        >
+          Tirana
         </p>
       </div>
     </li>
@@ -2140,69 +2140,6 @@ exports[`renders CountriesList component correctly 1`] = `
         <span
           className="text-base font-normal"
         >
-          Lat: 35.8989
-        </span>
-        <span
-          className="text-base font-normal"
-        >
-          Lon: 14.5146
-        </span>
-        <a
-          className="country-data"
-          href="/stats?lat=35.8989&lon=14.5146"
-          onClick={[Function]}
-        >
-          <svg
-            className=" text-2xl"
-            fill="currentColor"
-            height="1em"
-            stroke="currentColor"
-            strokeWidth="0"
-            style={
-              Object {
-                "color": undefined,
-              }
-            }
-            viewBox="0 0 16 16"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </a>
-      </div>
-      <div>
-        <img
-          alt="Malta"
-          className="country-shape"
-          src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/mt/vector.svg"
-        />
-      </div>
-      <div>
-        <h3
-          className="text-2xl font-bold pl-8"
-        >
-          Malta
-        </h3>
-        <p
-          className="text-lg font-bold pl-8"
-        >
-          Valletta
-        </p>
-      </div>
-    </li>
-    <li
-      className="country-list"
-    >
-      <div
-        className="flex justify-between px-8 items-center"
-      >
-        <span
-          className="text-base font-normal"
-        >
           Lat: 47.0105
         </span>
         <span
@@ -2254,6 +2191,69 @@ exports[`renders CountriesList component correctly 1`] = `
           className="text-lg font-bold pl-8"
         >
           Chisinau
+        </p>
+      </div>
+    </li>
+    <li
+      className="country-list"
+    >
+      <div
+        className="flex justify-between px-8 items-center"
+      >
+        <span
+          className="text-base font-normal"
+        >
+          Lat: 35.8989
+        </span>
+        <span
+          className="text-base font-normal"
+        >
+          Lon: 14.5146
+        </span>
+        <a
+          className="country-data"
+          href="/stats?lat=35.8989&lon=14.5146"
+          onClick={[Function]}
+        >
+          <svg
+            className=" text-2xl"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <img
+          alt="Malta"
+          className="country-shape"
+          src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/mt/vector.svg"
+        />
+      </div>
+      <div>
+        <h3
+          className="text-2xl font-bold pl-8"
+        >
+          Malta
+        </h3>
+        <p
+          className="text-lg font-bold pl-8"
+        >
+          Valletta
         </p>
       </div>
     </li>
@@ -2644,69 +2644,6 @@ exports[`renders CountriesList component correctly 1`] = `
         <span
           className="text-base font-normal"
         >
-          Lat: 38.7223
-        </span>
-        <span
-          className="text-base font-normal"
-        >
-          Lon: -9.1393
-        </span>
-        <a
-          className="country-data"
-          href="/stats?lat=38.7223&lon=-9.1393"
-          onClick={[Function]}
-        >
-          <svg
-            className=" text-2xl"
-            fill="currentColor"
-            height="1em"
-            stroke="currentColor"
-            strokeWidth="0"
-            style={
-              Object {
-                "color": undefined,
-              }
-            }
-            viewBox="0 0 16 16"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </a>
-      </div>
-      <div>
-        <img
-          alt="Portugal"
-          className="country-shape"
-          src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/pt/vector.svg"
-        />
-      </div>
-      <div>
-        <h3
-          className="text-2xl font-bold pl-8"
-        >
-          Portugal
-        </h3>
-        <p
-          className="text-lg font-bold pl-8"
-        >
-          Lisbon
-        </p>
-      </div>
-    </li>
-    <li
-      className="country-list"
-    >
-      <div
-        className="flex justify-between px-8 items-center"
-      >
-        <span
-          className="text-base font-normal"
-        >
           Lat: 44.4396
         </span>
         <span
@@ -2758,6 +2695,69 @@ exports[`renders CountriesList component correctly 1`] = `
           className="text-lg font-bold pl-8"
         >
           Bucharest
+        </p>
+      </div>
+    </li>
+    <li
+      className="country-list"
+    >
+      <div
+        className="flex justify-between px-8 items-center"
+      >
+        <span
+          className="text-base font-normal"
+        >
+          Lat: 38.7223
+        </span>
+        <span
+          className="text-base font-normal"
+        >
+          Lon: -9.1393
+        </span>
+        <a
+          className="country-data"
+          href="/stats?lat=38.7223&lon=-9.1393"
+          onClick={[Function]}
+        >
+          <svg
+            className=" text-2xl"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <img
+          alt="Portugal"
+          className="country-shape"
+          src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/pt/vector.svg"
+        />
+      </div>
+      <div>
+        <h3
+          className="text-2xl font-bold pl-8"
+        >
+          Portugal
+        </h3>
+        <p
+          className="text-lg font-bold pl-8"
+        >
+          Lisbon
         </p>
       </div>
     </li>
